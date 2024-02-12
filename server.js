@@ -4,7 +4,7 @@ const ApiError=require('./utiles/ApiError');
 const dotenv=require('dotenv');
 dotenv.config({path:'config.env'});
 const dbConnection=require('./config/DatabasConfig');
-const categoryRoute = require('./Routes/CategoryRoutes');
+const categoryRoute = require('./Routes/categoryRoutes');
 const productRoute = require('./Routes/productRoutes');
 const subcategoryRoute = require('./Routes/subcategoryRoutes');
 const globaleError = require('./middleware/errMiddleware');

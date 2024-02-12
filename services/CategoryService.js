@@ -1,5 +1,5 @@
 const slugify=require('slugify');
-const CategoryModel=require('../models/CategoryModel');
+const CategoryModel=require('../models/categoryModel');
 const asyncHandler = require('express-async-handler');
 const ApiError = require('../utiles/ApiError');
 const factory=require('./factoryHandellers');
